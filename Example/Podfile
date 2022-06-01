@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'KYTimer_Example' do
-  pod 'KYTimer', :path => '../'
+  pod 'KYMyTimer', :path => '../'
 
   target 'KYTimer_Tests' do
     inherit! :search_paths

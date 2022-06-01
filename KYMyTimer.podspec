@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'KYTimer'
+  s.name             = 'KYMyTimer'
   s.version          = '0.1.0'
   s.summary          = '定时器封装'
 
@@ -31,11 +31,11 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
 
-  s.source_files = 'KYTimer/Classes/**/*.h'
+  s.source_files = 'KYMyTimer/Classes/**/*'
 
   
   # s.resource_bundles = {
-  #   'KYTimer' => ['KYTimer/Assets/*.png']
+  #   'KYTimer' => ['KYMyTimer/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

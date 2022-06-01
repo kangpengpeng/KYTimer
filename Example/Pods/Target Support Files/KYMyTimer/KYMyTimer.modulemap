@@ -1,0 +1,6 @@
+framework module KYMyTimer {
+  umbrella header "KYMyTimer-umbrella.h"
+
+  export *
+  module * { export * }
+}

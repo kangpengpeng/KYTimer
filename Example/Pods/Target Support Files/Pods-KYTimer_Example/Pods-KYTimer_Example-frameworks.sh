@@ -176,10 +176,10 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/KYTimer/KYTimer.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KYMyTimer/KYMyTimer.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/KYTimer/KYTimer.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KYMyTimer/KYMyTimer.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

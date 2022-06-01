@@ -7,33 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03ECCC06FE37EE1AB8E12E39E88D02F1 /* KYTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 697C0F77B0242EF0B2ED090F6C0FAC42 /* KYTimer-dummy.m */; };
-		0A7F55460E73C3AC472226EABB74814D /* KYTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F04014B02CC976BFED9EFC1C0E684F1 /* KYTimerManager.m */; };
-		0DC5F37C534BA9AF48B648DFBB4A1EF5 /* KYTimerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 62F63B9FB53F1BA0B521C0B580B4682D /* KYTimerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A31CCAE3D64FEDC20A105C1C1DBF0FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		1D1B3FA88B324F1C7CADEE2B1BE4887E /* KYTimerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 92707AE7EEDEB8EA317736BFF99BA8E4 /* KYTimerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25BA6DCE5EF04446255D3BA8E15A1BCD /* KYGCDTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 948BC25D6B2F61D33B06AD7533D11DAD /* KYGCDTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E2EEDFB2F651348EC56CB7298AD7E7F /* Pods-KYTimer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A57070C53805B450B65C0059E6552556 /* Pods-KYTimer_Tests-dummy.m */; };
 		31F4EE2FCC86256FB3E3558AC527B3FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3A2DFB0737040AC97568C38D26B4EBF9 /* KYDsLinkTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B66DDF78EFF4CB5466671B387C0162B /* KYDsLinkTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70E3CFABEEB06E39C9C1D2A5AD44AA6F /* KYNSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FC95E10B00F4BF2297668216B25161 /* KYNSTimer.m */; };
-		8D5A6766C89D84B4B4ED8F5824B14A9C /* KYGCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = E28F2D9C3B1E232266CBC81BB505CD59 /* KYGCDTimer.m */; };
-		980A0D6643CB0F87165D08AB81D24D2D /* KYNSTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1949A7E57FE9B38BD4BD73F11CD2AED3 /* KYNSTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A22D75EA9E786CEB5FE2FA20B2A4062A /* KYTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F7D86E98886D2E472FF465C02AE153A /* KYTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4518D204AC8DC4D180563B200514870 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B0105106BE41BFCD87B9CCABA1D5BBED /* KYGCDTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2530984DED85F842557881DDCE82D671 /* KYGCDTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B36DD114A80860553D07E5EEB5EADCB2 /* Pods-KYTimer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF1F42E4DBD6B4C1591220320100C83 /* Pods-KYTimer_Example-dummy.m */; };
-		B6A8C92BFEE77C704670E8E55E6902E9 /* Pods-KYTimer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D91159EC6C22C8887A646B84CDC5074 /* Pods-KYTimer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C107BE62D50727E4CBD6349698A2999E /* KYDsLinkTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A640962C1D7E009E3A256D64E4DE39 /* KYDsLinkTimer.m */; };
+		3AA6284FE9B77923AEFA907118BFB673 /* KYTimerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DE93FBD03D4B2BF99327CF89A3D09788 /* KYTimerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61D40FF4293D843A08F0E86C2C5720CC /* Pods-KYTimer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D91159EC6C22C8887A646B84CDC5074 /* Pods-KYTimer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7769FD5629ACDD999FB92E86F5FEC42B /* KYDsLinkTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4BAF7B53296707911C3CEACC19D7CE /* KYDsLinkTimer.m */; };
+		79E980B61E755D0CEE4AD87745003361 /* KYGCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = AC37D3AD685107589FE980616E101A8A /* KYGCDTimer.m */; };
+		80DE53AB4EA5AE229504693F351F94E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		95460236B17A978023CB873390ADF6AC /* KYTimerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A44895DD095C3D5A7E971DAAED9C37E8 /* KYTimerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D9D16B0ECAF2000B953826A163AE30D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A5544DE371B9F448B8E77CA30777CD35 /* KYMyTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 535039EEBD4347F6EA30D2C51695B060 /* KYMyTimer-dummy.m */; };
+		AC24081FFD3C849AC3BFB0CA3EB935ED /* KYTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D1977F56111E0127BE0DEE32E675380C /* KYTimerManager.m */; };
+		B3AAAE5857811E2C70A743E1DEF2E2AB /* KYDsLinkTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1788FF665D94BA65BCC781BFA012EA1A /* KYDsLinkTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B91E0D67292295F5A887DA02652269AB /* KYNSTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8783D6D200B55B4CB3ADE16530D867EC /* KYNSTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9AEDD5FC9A8A665463A40C8EA9921F4 /* Pods-KYTimer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF1F42E4DBD6B4C1591220320100C83 /* Pods-KYTimer_Example-dummy.m */; };
+		E89402D2A03599C1613442CEAAC93435 /* KYMyTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC723430FA4B35E8B37516592A4A14F0 /* KYMyTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6DDA8962330369B4B9A8729825FD6CB /* Pods-KYTimer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D8994E62233AA906F1B0849FC235370 /* Pods-KYTimer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8B2579324284B60C427F0F996FEEDB0 /* KYNSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = E68CC97254E5865DF1D067E81149289E /* KYNSTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6A58E5BA2B5072A3C7F42D8870B6138D /* PBXContainerItemProxy */ = {
+		614465B5A97195B6F53641AFD423E426 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4814FD6ECD252AC4B76A759B1384383D;
-			remoteInfo = KYTimer;
+			remoteGlobalIDString = 1670BA403D6D82BD25855C7DCBC00429;
+			remoteInfo = KYMyTimer;
 		};
 		A5B296D927103B7FC386B33D439642C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -45,63 +45,63 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		067CA593402E6AD74259C1518B549EC4 /* KYTimer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KYTimer.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		0CCFB9C4C3271475DB0D21E2CAE936DC /* KYTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KYTimer.release.xcconfig; sourceTree = "<group>"; };
+		0C4BAF7B53296707911C3CEACC19D7CE /* KYDsLinkTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KYDsLinkTimer.m; path = KYMyTimer/Classes/KYDsLinkTimer.m; sourceTree = "<group>"; };
 		0D8994E62233AA906F1B0849FC235370 /* Pods-KYTimer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KYTimer_Tests-umbrella.h"; sourceTree = "<group>"; };
-		0F04014B02CC976BFED9EFC1C0E684F1 /* KYTimerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KYTimerManager.m; path = KYTimer/Classes/KYTimerManager.m; sourceTree = "<group>"; };
-		10632D117FAEA98B537E2D156F72859B /* KYTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KYTimer.modulemap; sourceTree = "<group>"; };
-		1949A7E57FE9B38BD4BD73F11CD2AED3 /* KYNSTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KYNSTimer.h; path = KYTimer/Classes/KYNSTimer.h; sourceTree = "<group>"; };
-		2530984DED85F842557881DDCE82D671 /* KYGCDTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KYGCDTimer.h; path = KYTimer/Classes/KYGCDTimer.h; sourceTree = "<group>"; };
+		1788FF665D94BA65BCC781BFA012EA1A /* KYDsLinkTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KYDsLinkTimer.h; path = KYMyTimer/Classes/KYDsLinkTimer.h; sourceTree = "<group>"; };
 		29E5A807DD9471B4B07149C8D8B3C7F1 /* Pods-KYTimer_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KYTimer_Tests"; path = Pods_KYTimer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FCB4CD46CFA570CFECE64B330D7A772 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2ADB3525B9288AD7B1A1868DAC4E2623 /* KYMyTimer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KYMyTimer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		340793A45DA6D41D9D21E886983AACC8 /* KYMyTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYMyTimer-prefix.pch"; sourceTree = "<group>"; };
+		37EA22CBDAE3D570D72F94DDA28CF20F /* KYMyTimer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KYMyTimer; path = KYMyTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A13190641ADD4B752C664AAF48B06F7 /* KYMyTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KYMyTimer.modulemap; sourceTree = "<group>"; };
+		3A487C4F2661D39DABA3BCA2E02F88C9 /* KYMyTimer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KYMyTimer-Info.plist"; sourceTree = "<group>"; };
 		3A495305A617E139C788637C39B50356 /* Pods-KYTimer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KYTimer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3C2365680D2F8051EC38FF7F0609A79C /* KYTimer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KYTimer-Info.plist"; sourceTree = "<group>"; };
-		3F7D86E98886D2E472FF465C02AE153A /* KYTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYTimer-umbrella.h"; sourceTree = "<group>"; };
 		40C732608829EDD03502D597F2DE8D24 /* Pods-KYTimer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KYTimer_Example-Info.plist"; sourceTree = "<group>"; };
 		4B9B382EBF95F415B9CB56E1C7A4CB2C /* Pods-KYTimer_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KYTimer_Tests-Info.plist"; sourceTree = "<group>"; };
 		4EF2F6025F4C59AB92BE09D8D731427B /* Pods-KYTimer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KYTimer_Example-frameworks.sh"; sourceTree = "<group>"; };
-		51D4BDD22AECA02F656FC944A7687AB7 /* KYTimer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KYTimer; path = KYTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		535039EEBD4347F6EA30D2C51695B060 /* KYMyTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KYMyTimer-dummy.m"; sourceTree = "<group>"; };
 		57F026BCFD8744EFCC94307DD32496CE /* Pods-KYTimer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KYTimer_Tests.modulemap"; sourceTree = "<group>"; };
 		6084FF3FD12D2FA394A2BBBBFBC1C65C /* Pods-KYTimer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KYTimer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		62F63B9FB53F1BA0B521C0B580B4682D /* KYTimerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KYTimerProtocol.h; path = KYTimer/Classes/KYTimerProtocol.h; sourceTree = "<group>"; };
-		697C0F77B0242EF0B2ED090F6C0FAC42 /* KYTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KYTimer-dummy.m"; sourceTree = "<group>"; };
-		6B66DDF78EFF4CB5466671B387C0162B /* KYDsLinkTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KYDsLinkTimer.h; path = KYTimer/Classes/KYDsLinkTimer.h; sourceTree = "<group>"; };
 		6D91159EC6C22C8887A646B84CDC5074 /* Pods-KYTimer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KYTimer_Example-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		78EB7FF7DBA1DB85F09421E4990A01EF /* KYTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYTimer-prefix.pch"; sourceTree = "<group>"; };
 		7BF1F42E4DBD6B4C1591220320100C83 /* Pods-KYTimer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KYTimer_Example-dummy.m"; sourceTree = "<group>"; };
 		8330D73150173DF1DA0C3C879F403003 /* Pods-KYTimer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYTimer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8783D6D200B55B4CB3ADE16530D867EC /* KYNSTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KYNSTimer.h; path = KYMyTimer/Classes/KYNSTimer.h; sourceTree = "<group>"; };
 		9102EC70CF0896196BC9668C71B9E69E /* Pods-KYTimer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYTimer_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		92707AE7EEDEB8EA317736BFF99BA8E4 /* KYTimerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KYTimerManager.h; path = KYTimer/Classes/KYTimerManager.h; sourceTree = "<group>"; };
-		98FC95E10B00F4BF2297668216B25161 /* KYNSTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KYNSTimer.m; path = KYTimer/Classes/KYNSTimer.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		948BC25D6B2F61D33B06AD7533D11DAD /* KYGCDTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KYGCDTimer.h; path = KYMyTimer/Classes/KYGCDTimer.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A44895DD095C3D5A7E971DAAED9C37E8 /* KYTimerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KYTimerManager.h; path = KYMyTimer/Classes/KYTimerManager.h; sourceTree = "<group>"; };
 		A57070C53805B450B65C0059E6552556 /* Pods-KYTimer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KYTimer_Tests-dummy.m"; sourceTree = "<group>"; };
+		AC37D3AD685107589FE980616E101A8A /* KYGCDTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KYGCDTimer.m; path = KYMyTimer/Classes/KYGCDTimer.m; sourceTree = "<group>"; };
 		B1F7D3DCAB645A2F2AC9A0B703B56107 /* Pods-KYTimer_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KYTimer_Example"; path = Pods_KYTimer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5BC623EF5B83463186B7138C0058B8A /* Pods-KYTimer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYTimer_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BD12DA9072957ABE98E2E39E5923D644 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		C4E6025859B52BEBD80B53F75C997C4D /* KYTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KYTimer.debug.xcconfig; sourceTree = "<group>"; };
+		C2909F63FD96E12482D24B80D3370335 /* KYMyTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KYMyTimer.debug.xcconfig; sourceTree = "<group>"; };
+		D1977F56111E0127BE0DEE32E675380C /* KYTimerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KYTimerManager.m; path = KYMyTimer/Classes/KYTimerManager.m; sourceTree = "<group>"; };
+		D2771B857649B06161A1CC1E2492F8CB /* KYMyTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KYMyTimer.release.xcconfig; sourceTree = "<group>"; };
 		D796B908535B3DD25AD1A579065C7EA9 /* Pods-KYTimer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYTimer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E28F2D9C3B1E232266CBC81BB505CD59 /* KYGCDTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KYGCDTimer.m; path = KYTimer/Classes/KYGCDTimer.m; sourceTree = "<group>"; };
+		DE93FBD03D4B2BF99327CF89A3D09788 /* KYTimerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KYTimerProtocol.h; path = KYMyTimer/Classes/KYTimerProtocol.h; sourceTree = "<group>"; };
 		E39EB2A6B6800825898353694E052AC8 /* Pods-KYTimer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KYTimer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F9A640962C1D7E009E3A256D64E4DE39 /* KYDsLinkTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KYDsLinkTimer.m; path = KYTimer/Classes/KYDsLinkTimer.m; sourceTree = "<group>"; };
+		E68CC97254E5865DF1D067E81149289E /* KYNSTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KYNSTimer.m; path = KYMyTimer/Classes/KYNSTimer.m; sourceTree = "<group>"; };
+		EC723430FA4B35E8B37516592A4A14F0 /* KYMyTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYMyTimer-umbrella.h"; sourceTree = "<group>"; };
+		F2F8147F605C47528531023A634C6B4E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		FB2A91C6DC61E59FE08240CCBDB0DB89 /* Pods-KYTimer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KYTimer_Example.modulemap"; sourceTree = "<group>"; };
+		FB8A578F33E5F218EF3D28809F986854 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		FCCC326784C118188CCFA6486BA71FCF /* Pods-KYTimer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KYTimer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		44365BAC6710223E0A1AE82E42C1CEFE /* Frameworks */ = {
+		04C0BE091A1617AEEAC7719500F0D1C4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A31CCAE3D64FEDC20A105C1C1DBF0FA /* Foundation.framework in Frameworks */,
+				9D9D16B0ECAF2000B953826A163AE30D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E515D277E8296D8208F1A327036011DF /* Frameworks */ = {
+		16EF424C2E16059A2220513A5EAEBE1D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4518D204AC8DC4D180563B200514870 /* Foundation.framework in Frameworks */,
+				80DE53AB4EA5AE229504693F351F94E3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +116,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0344E0723AB1D0BD8193A70DD37D684E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E88252689E845DC85907764676FA472 /* KYMyTimer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		2DDDBB7BD3F8751FE6D0A13CA3C7AE83 /* Pods-KYTimer_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,14 +140,23 @@
 			path = "Target Support Files/Pods-KYTimer_Tests";
 			sourceTree = "<group>";
 		};
-		4B379EC7CF79389754BD537442665F3A /* Pod */ = {
+		4E88252689E845DC85907764676FA472 /* KYMyTimer */ = {
 			isa = PBXGroup;
 			children = (
-				067CA593402E6AD74259C1518B549EC4 /* KYTimer.podspec */,
-				BD12DA9072957ABE98E2E39E5923D644 /* LICENSE */,
-				2FCB4CD46CFA570CFECE64B330D7A772 /* README.md */,
+				1788FF665D94BA65BCC781BFA012EA1A /* KYDsLinkTimer.h */,
+				0C4BAF7B53296707911C3CEACC19D7CE /* KYDsLinkTimer.m */,
+				948BC25D6B2F61D33B06AD7533D11DAD /* KYGCDTimer.h */,
+				AC37D3AD685107589FE980616E101A8A /* KYGCDTimer.m */,
+				8783D6D200B55B4CB3ADE16530D867EC /* KYNSTimer.h */,
+				E68CC97254E5865DF1D067E81149289E /* KYNSTimer.m */,
+				A44895DD095C3D5A7E971DAAED9C37E8 /* KYTimerManager.h */,
+				D1977F56111E0127BE0DEE32E675380C /* KYTimerManager.m */,
+				DE93FBD03D4B2BF99327CF89A3D09788 /* KYTimerProtocol.h */,
+				84EE7EE9F3641052CA76571A4E997C15 /* Pod */,
+				C622FC104425ADF66521677F260F37ED /* Support Files */,
 			);
-			name = Pod;
+			name = KYMyTimer;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -148,6 +165,26 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		63A49F626A1E3CBCC987AAE89A8DF50C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37EA22CBDAE3D570D72F94DDA28CF20F /* KYMyTimer */,
+				B1F7D3DCAB645A2F2AC9A0B703B56107 /* Pods-KYTimer_Example */,
+				29E5A807DD9471B4B07149C8D8B3C7F1 /* Pods-KYTimer_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84EE7EE9F3641052CA76571A4E997C15 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2ADB3525B9288AD7B1A1868DAC4E2623 /* KYMyTimer.podspec */,
+				F2F8147F605C47528531023A634C6B4E /* LICENSE */,
+				FB8A578F33E5F218EF3D28809F986854 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		98F69B9B6C07267EDD4F9001AD00914E /* Pods-KYTimer_Example */ = {
@@ -167,25 +204,6 @@
 			path = "Target Support Files/Pods-KYTimer_Example";
 			sourceTree = "<group>";
 		};
-		9B6769991584E5516BD2D009AD46B39B /* KYTimer */ = {
-			isa = PBXGroup;
-			children = (
-				6B66DDF78EFF4CB5466671B387C0162B /* KYDsLinkTimer.h */,
-				F9A640962C1D7E009E3A256D64E4DE39 /* KYDsLinkTimer.m */,
-				2530984DED85F842557881DDCE82D671 /* KYGCDTimer.h */,
-				E28F2D9C3B1E232266CBC81BB505CD59 /* KYGCDTimer.m */,
-				1949A7E57FE9B38BD4BD73F11CD2AED3 /* KYNSTimer.h */,
-				98FC95E10B00F4BF2297668216B25161 /* KYNSTimer.m */,
-				92707AE7EEDEB8EA317736BFF99BA8E4 /* KYTimerManager.h */,
-				0F04014B02CC976BFED9EFC1C0E684F1 /* KYTimerManager.m */,
-				62F63B9FB53F1BA0B521C0B580B4682D /* KYTimerProtocol.h */,
-				4B379EC7CF79389754BD537442665F3A /* Pod */,
-				D30882A758C68FE35E20DAA42EE70208 /* Support Files */,
-			);
-			name = KYTimer;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		A960EEF20FAA049F2BBACD9EC7C55BFD /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,25 +213,30 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		C622FC104425ADF66521677F260F37ED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A13190641ADD4B752C664AAF48B06F7 /* KYMyTimer.modulemap */,
+				535039EEBD4347F6EA30D2C51695B060 /* KYMyTimer-dummy.m */,
+				3A487C4F2661D39DABA3BCA2E02F88C9 /* KYMyTimer-Info.plist */,
+				340793A45DA6D41D9D21E886983AACC8 /* KYMyTimer-prefix.pch */,
+				EC723430FA4B35E8B37516592A4A14F0 /* KYMyTimer-umbrella.h */,
+				C2909F63FD96E12482D24B80D3370335 /* KYMyTimer.debug.xcconfig */,
+				D2771B857649B06161A1CC1E2492F8CB /* KYMyTimer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KYMyTimer";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				DEE4F48E3A9E19B467A58361A3AC4090 /* Development Pods */,
+				0344E0723AB1D0BD8193A70DD37D684E /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				D005874AC1DECD7A54849A995D28D2CE /* Products */,
+				63A49F626A1E3CBCC987AAE89A8DF50C /* Products */,
 				A960EEF20FAA049F2BBACD9EC7C55BFD /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D005874AC1DECD7A54849A995D28D2CE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				51D4BDD22AECA02F656FC944A7687AB7 /* KYTimer */,
-				B1F7D3DCAB645A2F2AC9A0B703B56107 /* Pods-KYTimer_Example */,
-				29E5A807DD9471B4B07149C8D8B3C7F1 /* Pods-KYTimer_Tests */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -224,42 +247,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D30882A758C68FE35E20DAA42EE70208 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				10632D117FAEA98B537E2D156F72859B /* KYTimer.modulemap */,
-				697C0F77B0242EF0B2ED090F6C0FAC42 /* KYTimer-dummy.m */,
-				3C2365680D2F8051EC38FF7F0609A79C /* KYTimer-Info.plist */,
-				78EB7FF7DBA1DB85F09421E4990A01EF /* KYTimer-prefix.pch */,
-				3F7D86E98886D2E472FF465C02AE153A /* KYTimer-umbrella.h */,
-				C4E6025859B52BEBD80B53F75C997C4D /* KYTimer.debug.xcconfig */,
-				0CCFB9C4C3271475DB0D21E2CAE936DC /* KYTimer.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/KYTimer";
-			sourceTree = "<group>";
-		};
-		DEE4F48E3A9E19B467A58361A3AC4090 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9B6769991584E5516BD2D009AD46B39B /* KYTimer */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		76E13D8C825B4653442DF4B4784AB631 /* Headers */ = {
+		81E9F713FE290C6525BB4069B24F9CBA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A2DFB0737040AC97568C38D26B4EBF9 /* KYDsLinkTimer.h in Headers */,
-				B0105106BE41BFCD87B9CCABA1D5BBED /* KYGCDTimer.h in Headers */,
-				980A0D6643CB0F87165D08AB81D24D2D /* KYNSTimer.h in Headers */,
-				A22D75EA9E786CEB5FE2FA20B2A4062A /* KYTimer-umbrella.h in Headers */,
-				1D1B3FA88B324F1C7CADEE2B1BE4887E /* KYTimerManager.h in Headers */,
-				0DC5F37C534BA9AF48B648DFBB4A1EF5 /* KYTimerProtocol.h in Headers */,
+				B3AAAE5857811E2C70A743E1DEF2E2AB /* KYDsLinkTimer.h in Headers */,
+				25BA6DCE5EF04446255D3BA8E15A1BCD /* KYGCDTimer.h in Headers */,
+				E89402D2A03599C1613442CEAAC93435 /* KYMyTimer-umbrella.h in Headers */,
+				B91E0D67292295F5A887DA02652269AB /* KYNSTimer.h in Headers */,
+				95460236B17A978023CB873390ADF6AC /* KYTimerManager.h in Headers */,
+				3AA6284FE9B77923AEFA907118BFB673 /* KYTimerProtocol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FB9021E75DF4C88FFD715B36DEFF5B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D40FF4293D843A08F0E86C2C5720CC /* Pods-KYTimer_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,33 +279,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC728B8EE6001390715817DD747F154A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B6A8C92BFEE77C704670E8E55E6902E9 /* Pods-KYTimer_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4814FD6ECD252AC4B76A759B1384383D /* KYTimer */ = {
+		1670BA403D6D82BD25855C7DCBC00429 /* KYMyTimer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB5FD0B346F67769603CE4FC6DA496F3 /* Build configuration list for PBXNativeTarget "KYTimer" */;
+			buildConfigurationList = 9A172A7A2D2A6629568421806A9C6A6E /* Build configuration list for PBXNativeTarget "KYMyTimer" */;
 			buildPhases = (
-				76E13D8C825B4653442DF4B4784AB631 /* Headers */,
-				E4B82FB7B75C42F3B554FE3BBC3BD3AC /* Sources */,
-				44365BAC6710223E0A1AE82E42C1CEFE /* Frameworks */,
-				957C1BD1546216620D25A9B646708143 /* Resources */,
+				81E9F713FE290C6525BB4069B24F9CBA /* Headers */,
+				1A45050DED17AF6DBFE613EE3E3E334B /* Sources */,
+				04C0BE091A1617AEEAC7719500F0D1C4 /* Frameworks */,
+				AA02207BEE1596A7621EA360500AFA1E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = KYTimer;
-			productName = KYTimer;
-			productReference = 51D4BDD22AECA02F656FC944A7687AB7 /* KYTimer */;
+			name = KYMyTimer;
+			productName = KYMyTimer;
+			productReference = 37EA22CBDAE3D570D72F94DDA28CF20F /* KYMyTimer */;
 			productType = "com.apple.product-type.framework";
 		};
 		69441D56CC4AB3E211E819BE89A0D31C /* Pods-KYTimer_Tests */ = {
@@ -321,17 +321,17 @@
 		};
 		E44326D7E6DB91A0710B9A39EA940E32 /* Pods-KYTimer_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8712AC2815F9BD75F289E78DBB6F2E60 /* Build configuration list for PBXNativeTarget "Pods-KYTimer_Example" */;
+			buildConfigurationList = C4DC6852CEBA7707E727A10B0850679A /* Build configuration list for PBXNativeTarget "Pods-KYTimer_Example" */;
 			buildPhases = (
-				DC728B8EE6001390715817DD747F154A /* Headers */,
-				C37F18527C169E19C5660548E1F63B47 /* Sources */,
-				E515D277E8296D8208F1A327036011DF /* Frameworks */,
-				300F60B8A8B757CF40F28BFD95EC1988 /* Resources */,
+				C5FB9021E75DF4C88FFD715B36DEFF5B /* Headers */,
+				1239D4BBEB1F8334423368937F22858A /* Sources */,
+				16EF424C2E16059A2220513A5EAEBE1D /* Frameworks */,
+				67E131AA81A2AE9BAF55F09358DF88CB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				20DA947B611DB1A6996084ACA2A4FE1F /* PBXTargetDependency */,
+				E6FBC4A9ABA11662A2059D317F675478 /* PBXTargetDependency */,
 			);
 			name = "Pods-KYTimer_Example";
 			productName = Pods_KYTimer_Example;
@@ -356,11 +356,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = D005874AC1DECD7A54849A995D28D2CE /* Products */;
+			productRefGroup = 63A49F626A1E3CBCC987AAE89A8DF50C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4814FD6ECD252AC4B76A759B1384383D /* KYTimer */,
+				1670BA403D6D82BD25855C7DCBC00429 /* KYMyTimer */,
 				E44326D7E6DB91A0710B9A39EA940E32 /* Pods-KYTimer_Example */,
 				69441D56CC4AB3E211E819BE89A0D31C /* Pods-KYTimer_Tests */,
 			);
@@ -375,14 +375,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		300F60B8A8B757CF40F28BFD95EC1988 /* Resources */ = {
+		67E131AA81A2AE9BAF55F09358DF88CB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		957C1BD1546216620D25A9B646708143 /* Resources */ = {
+		AA02207BEE1596A7621EA360500AFA1E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -392,6 +392,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1239D4BBEB1F8334423368937F22858A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9AEDD5FC9A8A665463A40C8EA9921F4 /* Pods-KYTimer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A45050DED17AF6DBFE613EE3E3E334B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7769FD5629ACDD999FB92E86F5FEC42B /* KYDsLinkTimer.m in Sources */,
+				79E980B61E755D0CEE4AD87745003361 /* KYGCDTimer.m in Sources */,
+				A5544DE371B9F448B8E77CA30777CD35 /* KYMyTimer-dummy.m in Sources */,
+				F8B2579324284B60C427F0F996FEEDB0 /* KYNSTimer.m in Sources */,
+				AC24081FFD3C849AC3BFB0CA3EB935ED /* KYTimerManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8169C0E28A0D0BB16424D836349224F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -400,34 +420,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C37F18527C169E19C5660548E1F63B47 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B36DD114A80860553D07E5EEB5EADCB2 /* Pods-KYTimer_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E4B82FB7B75C42F3B554FE3BBC3BD3AC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C107BE62D50727E4CBD6349698A2999E /* KYDsLinkTimer.m in Sources */,
-				8D5A6766C89D84B4B4ED8F5824B14A9C /* KYGCDTimer.m in Sources */,
-				70E3CFABEEB06E39C9C1D2A5AD44AA6F /* KYNSTimer.m in Sources */,
-				03ECCC06FE37EE1AB8E12E39E88D02F1 /* KYTimer-dummy.m in Sources */,
-				0A7F55460E73C3AC472226EABB74814D /* KYTimerManager.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		20DA947B611DB1A6996084ACA2A4FE1F /* PBXTargetDependency */ = {
+		E6FBC4A9ABA11662A2059D317F675478 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = KYTimer;
-			target = 4814FD6ECD252AC4B76A759B1384383D /* KYTimer */;
-			targetProxy = 6A58E5BA2B5072A3C7F42D8870B6138D /* PBXContainerItemProxy */;
+			name = KYMyTimer;
+			target = 1670BA403D6D82BD25855C7DCBC00429 /* KYMyTimer */;
+			targetProxy = 614465B5A97195B6F53641AFD423E426 /* PBXContainerItemProxy */;
 		};
 		FC83ED9200B0DB7F136A6655D01E5357 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -438,36 +438,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		07350E9DCEE8A0216BB4C264C5150682 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4E6025859B52BEBD80B53F75C997C4D /* KYTimer.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KYTimer/KYTimer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KYTimer/KYTimer-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KYTimer/KYTimer.modulemap";
-				PRODUCT_MODULE_NAME = KYTimer;
-				PRODUCT_NAME = KYTimer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -534,41 +504,9 @@
 			};
 			name = Debug;
 		};
-		50377FD2284B209B7D5E7873E78C05D5 /* Debug */ = {
+		408180F86E8FE6EDB1E9F1AAEC6D01EB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9102EC70CF0896196BC9668C71B9E69E /* Pods-KYTimer_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KYTimer_Example/Pods-KYTimer_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KYTimer_Example/Pods-KYTimer_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6BE4B488B358FC810C960DF0498D0C48 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CCFB9C4C3271475DB0D21E2CAE936DC /* KYTimer.release.xcconfig */;
+			baseConfigurationReference = C2909F63FD96E12482D24B80D3370335 /* KYMyTimer.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -578,24 +516,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KYTimer/KYTimer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KYTimer/KYTimer-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/KYMyTimer/KYMyTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KYMyTimer/KYMyTimer-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KYTimer/KYTimer.modulemap";
-				PRODUCT_MODULE_NAME = KYTimer;
-				PRODUCT_NAME = KYTimer;
+				MODULEMAP_FILE = "Target Support Files/KYMyTimer/KYMyTimer.modulemap";
+				PRODUCT_MODULE_NAME = KYMyTimer;
+				PRODUCT_NAME = KYMyTimer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		6D635F4AB6D12936E208E5440B297955 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -662,6 +599,102 @@
 			};
 			name = Debug;
 		};
+		90EB712DE19AE0C97360886D75EB977C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9102EC70CF0896196BC9668C71B9E69E /* Pods-KYTimer_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KYTimer_Example/Pods-KYTimer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KYTimer_Example/Pods-KYTimer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		973940D08105E5CB0E0ACD1880875C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2771B857649B06161A1CC1E2492F8CB /* KYMyTimer.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KYMyTimer/KYMyTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KYMyTimer/KYMyTimer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KYMyTimer/KYMyTimer.modulemap";
+				PRODUCT_MODULE_NAME = KYMyTimer;
+				PRODUCT_NAME = KYMyTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB66E2354A6FA31448934B043DF410AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5BC623EF5B83463186B7138C0058B8A /* Pods-KYTimer_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KYTimer_Example/Pods-KYTimer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KYTimer_Example/Pods-KYTimer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -717,42 +750,10 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		D23C32B8B4212ABF332D476935A7E687 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5BC623EF5B83463186B7138C0058B8A /* Pods-KYTimer_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KYTimer_Example/Pods-KYTimer_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KYTimer_Example/Pods-KYTimer_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -777,20 +778,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8712AC2815F9BD75F289E78DBB6F2E60 /* Build configuration list for PBXNativeTarget "Pods-KYTimer_Example" */ = {
+		9A172A7A2D2A6629568421806A9C6A6E /* Build configuration list for PBXNativeTarget "KYMyTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				50377FD2284B209B7D5E7873E78C05D5 /* Debug */,
-				D23C32B8B4212ABF332D476935A7E687 /* Release */,
+				408180F86E8FE6EDB1E9F1AAEC6D01EB /* Debug */,
+				973940D08105E5CB0E0ACD1880875C84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB5FD0B346F67769603CE4FC6DA496F3 /* Build configuration list for PBXNativeTarget "KYTimer" */ = {
+		C4DC6852CEBA7707E727A10B0850679A /* Build configuration list for PBXNativeTarget "Pods-KYTimer_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				07350E9DCEE8A0216BB4C264C5150682 /* Debug */,
-				6BE4B488B358FC810C960DF0498D0C48 /* Release */,
+				90EB712DE19AE0C97360886D75EB977C /* Debug */,
+				BB66E2354A6FA31448934B043DF410AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

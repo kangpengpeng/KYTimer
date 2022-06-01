@@ -7,6 +7,9 @@
 
 ## Example
 
+为解决命名冲突问题，修改索引文件名称为 KYMyTimer.podspec
+项目中实际
+
 ```
     // 第一种定时器调用方式，需要调用者手动启动
     static int i = 0;
@@ -44,7 +47,7 @@ KYTimer is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```
-pod 'KYTimer', '~> 0.1.0'
+pod 'KYMyTimer', '~> 0.1.0'
 ```
 
 ## Author

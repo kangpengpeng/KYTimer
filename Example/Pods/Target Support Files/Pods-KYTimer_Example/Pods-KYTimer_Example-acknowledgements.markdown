@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## KYTimer
+## KYMyTimer
 
 Copyright (c) 2022 搁浅de烟花 <353327533@qq.com>
 

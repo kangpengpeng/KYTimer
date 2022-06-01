@@ -16,6 +16,6 @@
 #import "KYTimerManager.h"
 #import "KYTimerProtocol.h"
 
-FOUNDATION_EXPORT double KYTimerVersionNumber;
-FOUNDATION_EXPORT const unsigned char KYTimerVersionString[];
+FOUNDATION_EXPORT double KYMyTimerVersionNumber;
+FOUNDATION_EXPORT const unsigned char KYMyTimerVersionString[];
 
