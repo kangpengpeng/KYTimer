@@ -47,7 +47,7 @@ KYTimer is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```
-pod 'KYMyTimer', '~> 0.1.0'
+pod 'KYMyTimer', '~> 0.1.1'
 ```
 
 ## Author
