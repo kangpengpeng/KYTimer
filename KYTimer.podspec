@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KYTimer'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of KYTimer.'
+  s.summary          = '定时器封装'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  对定时器NSTimer 和 GCDTiemr 的封装
                        DESC
 
   s.homepage         = 'https://github.com/搁浅de烟花/KYTimer'
@@ -31,7 +31,9 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'KYTimer/Classes/**/*'
-  
+
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+
   # s.resource_bundles = {
   #   'KYTimer' => ['KYTimer/Assets/*.png']
   # }

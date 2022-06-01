@@ -7,7 +7,32 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+```
+    // 第一种定时器调用方式，需要调用者手动启动
+    static int i = 0;
+    [[KYTimerManager shared] timerWithName:@"com.kpp.timerExample" interval:1 repeats:YES block:^{
+        i++;
+        NSLog(@"定时器任务 %d", i);
+        if (i > 10) {
+            NSLog(@"定时器销毁");
+            [[KYTimerManager shared] cancelTimerWithName:@"com.kpp.timerExample"];
+        }
+    }];
+    [[KYTimerManager shared] resumeTimerWithName:@"com.kpp.timerExample"];
+```
+
+```
+    // 第二种定时器调用方式，自动启动
+    static int i = 0;
+    [[KYTimerManager shared] scheduleTimerWithName:@"com.kpp.timerExample" interval:1 repeats:YES block:^{
+        i++;
+        NSLog(@"定时器任务 %d", i);
+        if (i > 10) {
+            NSLog(@"定时器销毁");
+            [[KYTimerManager shared] cancelTimerWithName:@"com.kpp.timerExample"];
+        }
+    }];
+```
 
 ## Requirements
 
@@ -17,12 +42,12 @@ KYTimer is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'KYTimer'
+pod 'KYTimer', '~> 2.3'
 ```
 
 ## Author
 
-搁浅de烟花, 353327533@qq.com
+搁浅de烟花, 353327533@qq.com, kangpp@163.com
 
 ## License
 

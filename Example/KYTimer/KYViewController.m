@@ -7,6 +7,7 @@
 //
 
 #import "KYViewController.h"
+#import <KYTimerManager.h>
 
 @interface KYViewController ()
 
@@ -14,16 +15,38 @@
 
 @implementation KYViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    //[self timerTest_01];
+    [self timerTest_02];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)timerTest_02 {
+    // 第二种定时器调用方式，自动启动
+    static int i = 0;
+    [[KYTimerManager shared] scheduleTimerWithName:@"com.kpp.timerExample" interval:1 repeats:YES block:^{
+        i++;
+        NSLog(@"定时器任务 %d", i);
+        if (i > 10) {
+            NSLog(@"定时器销毁");
+            [[KYTimerManager shared] cancelTimerWithName:@"com.kpp.timerExample"];
+        }
+    }];
+}
+
+- (void)timerTest_01 {
+    // 第一种定时器调用方式，需要调用者手动启动
+    static int i = 0;
+    [[KYTimerManager shared] timerWithName:@"com.kpp.timerExample" interval:1 repeats:YES block:^{
+        i++;
+        NSLog(@"定时器任务 %d", i);
+        if (i > 10) {
+            NSLog(@"定时器销毁");
+            [[KYTimerManager shared] cancelTimerWithName:@"com.kpp.timerExample"];
+        }
+    }];
+    [[KYTimerManager shared] resumeTimerWithName:@"com.kpp.timerExample"];
 }
 
 @end
