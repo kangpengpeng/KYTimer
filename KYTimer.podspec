@@ -21,19 +21,19 @@ Pod::Spec.new do |s|
   对定时器NSTimer 和 GCDTiemr 的封装
                        DESC
 
-  s.homepage         = 'https://github.com/搁浅de烟花/KYTimer'
+  s.homepage         = 'https://github.com/kangpengpeng/KYTimer'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '搁浅de烟花' => '353327533@qq.com' }
-  s.source           = { :git => 'https://github.com/搁浅de烟花/KYTimer.git', :tag => s.version.to_s }
+  s.author           = { 'kangpengpeng' => '353327533@qq.com' }
+  s.source           = { :git => 'https://github.com/kangpengpeng/KYTimer.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'KYTimer/Classes/**/*'
 
-  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+  s.source_files = 'KYTimer/Classes/**/*.h'
 
+  
   # s.resource_bundles = {
   #   'KYTimer' => ['KYTimer/Assets/*.png']
   # }

@@ -1,8 +1,8 @@
 {
   "name": "KYTimer",
   "version": "0.1.0",
-  "summary": "A short description of KYTimer.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "定时器封装",
+  "description": "对定时器NSTimer 和 GCDTiemr 的封装",
   "homepage": "https://github.com/搁浅de烟花/KYTimer",
   "license": {
     "type": "MIT",
