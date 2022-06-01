@@ -7,6 +7,10 @@
 
 ## Example
 
+因重名问题，故改自己的索引文件名为 KPTimer.spec
+实际下载的仓库文件依然是 KY 前缀
+
+
 ```
     // 第一种定时器调用方式，需要调用者手动启动
     static int i = 0;
@@ -35,6 +39,8 @@
 ```
 
 ## Requirements
+
+
 
 ## Installation
 
